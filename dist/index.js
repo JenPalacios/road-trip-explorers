@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./style.css");
 },{"./style.css":"iMte"}]},{},["Focm"], null)
-//# sourceMappingURL=/road-trip-explorers.43fd3748.js.map
+//# sourceMappingURL=/index.js.map
