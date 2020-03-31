@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/JenPalacios/road-trip-explorers/issues"
   },
-  "homepage": "https://github.com/JenPalacios/road-trip-explorers#readme"
+  "homepage": "https://github.com/JenPalacios/road-trip-explorers#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "parcel-plugin-clean-dist": "0.0.6"
+  }
 }
