@@ -1,0 +1,16 @@
+.at-icon-wrapper.at-share-btn {
+    border:1px solid #ffde00!important;
+    margin-right:15px!important
+}
+
+.at-icon-wrapper.at-share-btn:hover {
+    background-color:#ffde00!important
+}
+
+.at-icon-wrapper.at-share-btn:hover .at-icon {
+    fill:#202325!important
+}
+
+.at-icon-wrapper.at-share-btn:hover .at-label{
+    color:#202325!important
+}

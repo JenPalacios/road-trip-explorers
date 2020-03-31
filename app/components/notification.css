@@ -1,0 +1,26 @@
+.blog-notification.read-more {
+    font-size: 20px;
+}
+
+.blog-notification.read-more p {
+    margin: 0;
+}
+
+.blog-notification, .blog-warning{
+    font-size:16px;
+    line-height:normal;
+    padding:20px;
+    background-color:#ddd9d9;
+    border-radius:4px
+}
+
+.notification-title {
+    font-weight:700
+}
+
+.blog-icon {
+    font-family:'Fa solid 900',
+    sans-serif;
+    color:#fbb637;
+    margin-right:3px
+}

@@ -1,0 +1,14 @@
+/* custom */
+@import './app/components/youtube.css';
+@import './app/components/table.css';
+@import './app/components/notification.css';
+
+/* overrides */
+@import './app/components/just-comments.css';
+@import './app/components/share-buttons.css';
+
+/* stupid mistakes */
+.bold,
+.make-bold {
+    font-weight: 700;
+}

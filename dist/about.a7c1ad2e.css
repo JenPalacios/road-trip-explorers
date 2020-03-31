@@ -1,0 +1,2 @@
+#fist-bump .hidden-fist{transform:scale(0);transform-origin:50% 50%;transform-box:border-box;opacity:1;transition:none}#fist-bump.on .hidden-fist{transform:scale(3);opacity:0;transition:transform,opacity;transition-duration:.6s,.4s;transition-delay:0s,.2s}
+/*# sourceMappingURL=/about.a7c1ad2e.css.map */

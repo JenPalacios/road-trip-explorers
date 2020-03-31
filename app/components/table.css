@@ -1,0 +1,35 @@
+.rte-table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    max-width: 780px;
+    font-size: 16px;
+    margin: 0 auto 15px auto;
+}
+
+/* Zebra striping */
+.rte-table tr:nth-of-type(odd) { 
+    background: #eee; 
+}
+
+.rte-table th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+}
+
+.rte-table td:first-child{
+    font-weight: bold;
+}
+
+.rte-table td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: center; 
+    min-width: 120px;
+}
+
+@media (max-device-width: 760px) {
+    .rte-table {
+        table-layout:fixed;
+    }
+}
