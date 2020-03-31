@@ -1,7 +1,5 @@
-const currentURL = window.location.href;
-const head = document.getElementsByTagName("head")[0];
-
 function setScriptTags() {
+    const head = document.getElementsByTagName("head")[0];
     const URLs = {
         iubenda: {
             url: "//cdn.iubenda.com/cs/tcf/stub.js",
@@ -37,6 +35,7 @@ function createTag(service) {
 
 
 export function setCookies() {
+    const currentURL = window.location.href;
     if (currentURL.includes("roadtripexplorers")) {
 
         setScriptTags();
