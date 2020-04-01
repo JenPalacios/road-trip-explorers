@@ -36,7 +36,7 @@ function createTag(service) {
 
 export function setCookies() {
     const currentURL = window.location.href;
-    if (currentURL.includes("roadtripexplorers")) {
+    if (!currentURL.includes("roadtripexplorers")) {
 
         setScriptTags();
     }

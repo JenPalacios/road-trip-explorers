@@ -3,6 +3,6 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"GKS4":[function(require,module,exports) {
 
 },{"./app/components/youtube.css":"A1wA","./app/components/table.css":"A1wA","./app/components/notification.css":"A1wA","./app/components/just-comments.css":"A1wA","./app/components/share-buttons.css":"A1wA"}],"T60n":[function(require,module,exports) {
-"use strict";require("./articles.css");
+"use strict";require("./articles.css");var e=document.getElementsByClassName("stop-line");if(e.length>0){var t=e.length,a=e[t-1];a.style.display="none"}function s(){if(n.length>0)for(var e=function(e){var t="https://img.youtube.com/vi/".concat(n[e].dataset.embed,"/maxresdefault.jpg"),a=new Image;a.src=t,a.addEventListener("load",void n[e].appendChild(a)),n[e].addEventListener("click",function(){var e="https://www.youtube.com/embed/".concat(this.dataset.embed,"?start=").concat(this.dataset.start,"&amp;autoplay=1"),t=document.createElement("iframe");t.setAttribute("frameborder","0"),t.setAttribute("allowfullscreen",""),t.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),t.setAttribute("src",e),this.innerHTML="",this.appendChild(t)})},t=0;t<n.length;t++)e(t)}var n=document.getElementsByClassName("youtube");n.length>0&&s();
 },{"./articles.css":"GKS4"}]},{},["T60n"], null)
-//# sourceMappingURL=/articles.e636461e.js.map
+//# sourceMappingURL=/articles.7de39abc.js.map
