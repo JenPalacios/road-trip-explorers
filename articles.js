@@ -1,4 +1,7 @@
 import './articles.css';
+import { initTableOfContents } from './app/js-components/table-of-contents';
+
+initTableOfContents();
 
 const stopLines = document.getElementsByClassName('stop-line');
 

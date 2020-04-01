@@ -3,6 +3,6 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"X8et":[function(require,module,exports) {
 "use strict";function e(){var e=document.getElementsByTagName("head")[0];Object.values({iubenda:{url:"//cdn.iubenda.com/cs/tcf/stub.js",async:!1},iubendaAsync:{url:"//cdn.iubenda.com/cs/iubenda_cs.js",async:!0}}).forEach(function(c){var r=t(c);e.appendChild(r)})}function t(e){var t=document.createElement("script");return!0===e.async&&t.setAttribute("defer","defer"),t.setAttribute("src",e.url),t.setAttribute("type","text/javascript"),t.setAttribute("charset","UTF-8"),t}function c(){var t=window.location.href;(t.includes("roadtripexplorers")||t.includes("localhost"))&&e()}Object.defineProperty(exports,"__esModule",{value:!0}),exports.setCookies=c;
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./index.css");var e=require("./app/js-components/cookies");e.setCookies,(0,e.setCookies)();
+"use strict";require("./index.css");var e=require("./app/js-components/cookies");(0,e.setCookies)();
 },{"./index.css":"vKFU","./app/js-components/cookies":"X8et"}]},{},["Focm"], null)
-//# sourceMappingURL=/road-trip-explorers.21f67306.js.map
+//# sourceMappingURL=/road-trip-explorers.49ec4d45.js.map

@@ -15,3 +15,28 @@
 .make-bold {
     font-weight: 700;
 }
+/* table of contents */
+.toc-list {
+    position: relative;
+    overflow: hidden;
+}
+
+.toc-list-item {
+	margin-bottom: 15px;
+}
+
+.toc-link::before {
+	background-color: #ebc944
+}
+
+.is-active-link::before {
+  background-color: #4D7DEA
+}
+
+.toc-link::before {
+  width: 4px
+}
+
+a.toc-link {
+	font-weight: normal;
+}
