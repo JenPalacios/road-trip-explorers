@@ -26,15 +26,15 @@
 }
 
 .toc-link::before {
-	background-color: #ebc944
+	background-color: #ebc944 !important;
 }
 
 .is-active-link::before {
-  background-color: #4D7DEA
+  background-color: #4D7DEA !important;
 }
 
 .toc-link::before {
-  width: 4px
+  width: 4px !important;
 }
 
 a.toc-link {
