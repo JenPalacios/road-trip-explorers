@@ -1,8 +1,6 @@
 parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcelRequire,u="function"==typeof require&&require;function f(t,n){if(!r[t]){if(!e[t]){var i="function"==typeof parcelRequire&&parcelRequire;if(!n&&i)return i(t,!0);if(o)return o(t,!0);if(u&&"string"==typeof t)return u(t);var c=new Error("Cannot find module '"+t+"'");throw c.code="MODULE_NOT_FOUND",c}p.resolve=function(r){return e[t][1][r]||r},p.cache={};var l=r[t]=new f.Module(t);e[t][0].call(l.exports,p,l,l.exports,this)}return r[t].exports;function p(e){return f(p.resolve(e))}}f.isParcelRequire=!0,f.Module=function(e){this.id=e,this.bundle=f,this.exports={}},f.modules=e,f.cache=r,f.parent=o,f.register=function(r,t){e[r]=[function(e,r){r.exports=t},{}]};for(var c=0;c<t.length;c++)try{f(t[c])}catch(e){i||(i=e)}if(t.length){var l=f(t[t.length-1]);"object"==typeof exports&&"undefined"!=typeof module?module.exports=l:"function"==typeof define&&define.amd?define(function(){return l}):n&&(this[n]=l)}if(parcelRequire=f,i)throw i;return f}({"vKFU":[function(require,module,exports) {
 
-},{}],"X8et":[function(require,module,exports) {
-"use strict";function e(){var e=document.getElementsByTagName("head")[0];Object.values({iubenda:{url:"//cdn.iubenda.com/cs/tcf/stub.js",async:!1},iubendaAsync:{url:"//cdn.iubenda.com/cs/iubenda_cs.js",async:!0}}).forEach(function(c){var r=t(c);e.appendChild(r)})}function t(e){var t=document.createElement("script");return!0===e.async&&t.setAttribute("defer","defer"),t.setAttribute("src",e.url),t.setAttribute("type","text/javascript"),t.setAttribute("charset","UTF-8"),t}function c(){var t=window.location.href;(t.includes("roadtripexplorers")||t.includes("localhost"))&&e()}Object.defineProperty(exports,"__esModule",{value:!0}),exports.setCookies=c;
 },{}],"Focm":[function(require,module,exports) {
-"use strict";require("./index.css");var e=require("./app/js-components/cookies");(0,e.setCookies)();
-},{"./index.css":"vKFU","./app/js-components/cookies":"X8et"}]},{},["Focm"], null)
-//# sourceMappingURL=/road-trip-explorers.49ec4d45.js.map
+"use strict";require("./index.css");
+},{"./index.css":"vKFU"}]},{},["Focm"], null)
+//# sourceMappingURL=/road-trip-explorers.f63030ec.js.map
